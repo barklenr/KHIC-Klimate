@@ -1,0 +1,6 @@
+C:\Users\TIMMAH\Desktop\Experiment\MountUnionClimate\Weather Solution\bin\Debug\Weather Solution.exe.config
+C:\Users\TIMMAH\Desktop\Experiment\MountUnionClimate\Weather Solution\obj\Debug\Weather Solution.exe
+C:\Users\TIMMAH\Desktop\Experiment\MountUnionClimate\Weather Solution\obj\Debug\Weather Solution.pdb
+C:\Users\TIMMAH\Desktop\MountUnionClimate\Weather Solution\bin\Debug\Weather Solution.exe.config
+C:\Users\TIMMAH\Desktop\MountUnionClimate\Weather Solution\obj\Debug\Weather Solution.exe
+C:\Users\TIMMAH\Desktop\MountUnionClimate\Weather Solution\obj\Debug\Weather Solution.pdb
