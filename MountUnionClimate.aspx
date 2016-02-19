@@ -64,7 +64,7 @@
 
 
 <img src="http://192.168.173.24/mjpg/video.mjpg" height="240" width="350"/>
-
+       
 
 <%--Start of the footer--%>
     <div class="navbar navbar-inverse navbar-fixed-bottom">

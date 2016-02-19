@@ -7,7 +7,6 @@ C:\Users\TIMMAH\Desktop\MountUnionClimate\Weather Solution\obj\Debug\Weather Sol
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\bin\Debug\Weather Solution.dll.config
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\bin\Debug\Weather Solution.dll
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\bin\Debug\Weather Solution.pdb
-C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csprojResolveAssemblyReference.cache
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather_Solution.Form1.resources
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather_Solution.Properties.Resources.resources
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csproj.GenerateResource.Cache
