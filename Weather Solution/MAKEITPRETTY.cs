@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Weather_Solution
 {
-    class MAKEITPRETTY
+    public class MAKEITPRETTY
     {
         private String[] array;
 

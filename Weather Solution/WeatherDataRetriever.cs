@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Weather_Solution
 {
-    class WeatherDataRetriever
+    public class WeatherDataRetriever
     {
         public string GetHTML(string website)
         {

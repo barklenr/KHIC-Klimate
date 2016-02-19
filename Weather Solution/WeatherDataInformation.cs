@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Weather_Solution
 {
-    class WeatherDataInformation
+    public class WeatherDataInformation
     {
         public String CurrentTemperature;
         public String Humidity;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Weather_Solution
 {
-    class DataCleaner
+    public class DataCleaner
     {
         public string RemoveHTML(string html)
         {
