@@ -13,7 +13,15 @@ public partial class MountUnionClimate : System.Web.UI.Page
         //weatherDataRetriever.WriteToFile(@"C:\Users\TIMMAH\Desktop\html.txt", html);
         //weatherDataRetriever.WriteToFile(@"C:\Users\TIMMAH\Desktop\clean.txt", cleanData);
         MAKEITPRETTY pretty = new MAKEITPRETTY(cleanData, weatherData);
-        
+
+        lblCurrentTemperature.Text = "Current Temperature: " + weatherData.CurrentTemperature;
+        lblHumidity.Text = "Humidity: " + weatherData.Humidity;
+        lblWind.Text = "Wind: " + weatherData.Wind;
+        lblBarometer.Text = "Barometer: " + weatherData.Barometer;
+        lblTodaysRain.Text = "Today's Rain: " + weatherData.TodaysRain;
+        lblWindChill.Text = "Wind Chill: " + weatherData.WindChill;
+        lblHighTemperature.Text = "Today's High Temperature: " + weatherData.HighTemperature;
+        lblLowTemperature.Text = "Today's Low Temperature: " + weatherData.LowTemperature;
 
     }
 }

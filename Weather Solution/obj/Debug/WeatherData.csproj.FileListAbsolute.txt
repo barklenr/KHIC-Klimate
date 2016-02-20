@@ -12,3 +12,4 @@ C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather_Solution
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csproj.GenerateResource.Cache
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather Solution.dll
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather Solution.pdb
+C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csprojResolveAssemblyReference.cache
