@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MountUnionClimate.aspx.cs" Inherits="MountUnionClimate" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="RaiderRadar.aspx.cs" Inherits="MountUnionClimate" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Mount Union Climate</title>
+    <title>Raider Radar</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="content/bootstrap.css" rel="stylesheet" />
@@ -34,7 +34,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Mount Union Climate</a>
+                        <a class="navbar-brand" href="#">Raider Radar</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,7 +54,7 @@
                             </li>
                             <li><a href="http://www.mountunion.edu/">Mount Union Homepage</a></li>
                             <li><a href="http://raider.mountunion.edu/cs/">CSIS Homepage</a></li>
-                            <li><a href="#">Mount Union Weather</a></li>
+                            <li><a href="http://raider.mountunion.edu/~weather/Bracy_Vantage_Pro_Plus.htm">Mount Union Weather</a></li>
                         </ul>
 
                     </div>
@@ -63,10 +63,13 @@
                 <!-- /.container-fluid -->
             </nav>
             <%--End of the top of the page navbar--%>
-
-
-            <img src="http://192.168.173.24/mjpg/video.mjpg" height="340" width="450"  />
-
+            
+            <div class="container">
+                <div class="jumbotron">
+                    <center><img src="Pictures/ChapmanHall.jpg" style="width:300px;height:300px;" /></center>
+       <%--     <img src="http://192.168.173.24/mjpg/video.mjpg" height="340" width="450"  />--%>
+            </div>
+            </div>
             <%--<asp:TextBox ID="txtData" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
             <asp:Panel ID="Panel" runat="server">
                 <p>

@@ -1,0 +1,8 @@
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\bin\Release\Weather Solution.dll.config
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\bin\Release\Weather Solution.dll
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\bin\Release\Weather Solution.pdb
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Release\Weather_Solution.Form1.resources
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Release\Weather_Solution.Properties.Resources.resources
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Release\WeatherData.csproj.GenerateResource.Cache
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Release\Weather Solution.dll
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Release\Weather Solution.pdb
