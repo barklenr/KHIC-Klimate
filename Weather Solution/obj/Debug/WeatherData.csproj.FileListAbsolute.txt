@@ -13,3 +13,12 @@ C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.cspr
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather Solution.dll
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\Weather Solution.pdb
 C:\Users\TIMMAH\Desktop\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csprojResolveAssemblyReference.cache
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\bin\Debug\Weather Solution.dll.config
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\bin\Debug\Weather Solution.dll
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\bin\Debug\Weather Solution.pdb
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csprojResolveAssemblyReference.cache
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Debug\Weather_Solution.Form1.resources
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Debug\Weather_Solution.Properties.Resources.resources
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Debug\WeatherData.csproj.GenerateResource.Cache
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Debug\Weather Solution.dll
+C:\Users\tbagn\OneDrive\Documents\KHIC-Klimate\Weather Solution\obj\Debug\Weather Solution.pdb
