@@ -63,32 +63,43 @@
                 <!-- /.container-fluid -->
             </nav>
             <%--End of the top of the page navbar--%>
-            
+
             <div class="container">
                 <div class="jumbotron">
                     <center><img src="Pictures/ChapmanHall.jpg" style="width:300px;height:300px;" /></center>
-       <%--     <img src="http://192.168.173.24/mjpg/video.mjpg" height="340" width="450"  />--%>
-            </div>
+                    <%--     <img src="http://192.168.173.24/mjpg/video.mjpg" height="340" width="450"  />--%>
+                </div>
             </div>
             <%--<asp:TextBox ID="txtData" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
             <asp:Panel ID="Panel" runat="server">
                 <p>
-                    <asp:Label ID="lblCurrentTemperature" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblCurrentTemperature" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblHumidity" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblHumidity" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblWind" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblWind" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblBarometer" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblBarometer" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblTodaysRain" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblTodaysRain" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblWindChill" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblWindChill" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblHighTemperature" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblHighTemperature" runat="server" Text=""></asp:Label>
+                </p>
                 <p>
-                    <asp:Label ID="lblLowTemperature" runat="server" Text=""></asp:Label></p>
+                    <asp:Label ID="lblLowTemperature" runat="server" Text=""></asp:Label>
+                </p>
             </asp:Panel>
+
+
+            <iframe id="MyIFrame" runat="server" scrolling="auto" width="100%" height="768px" frameborder="0"></iframe>
 
 
             <%--Start of the footer--%>
