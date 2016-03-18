@@ -1,28 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MountUnionClimate", ".", "{3F89A141-FAC3-48C2-B487-14088C8A5189}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KHIC-Klimate", ".", "{3F89A141-FAC3-48C2-B487-14088C8A5189}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		ProjectReferences = "{585a3973-0bb0-4a16-918a-f5b1a555eed1}|Weather Solution.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_55200"
-		Debug.AspNetCompiler.PhysicalPath = "..\MountUnionClimate\"
+		Debug.AspNetCompiler.PhysicalPath = "..\KHIC-Klimate\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55200\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_55200"
-		Release.AspNetCompiler.PhysicalPath = "..\MountUnionClimate\"
+		Release.AspNetCompiler.PhysicalPath = "..\KHIC-Klimate\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55200\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55200"
-		SlnRelativePath = "..\MountUnionClimate\"
+		SlnRelativePath = "..\KHIC-Klimate\"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData", "Weather Solution\WeatherData.csproj", "{585A3973-0BB0-4A16-918A-F5B1A555EED1}"

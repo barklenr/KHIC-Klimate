@@ -7,6 +7,7 @@
     <title>Raider Radar</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
     <link href="content/bootstrap.css" rel="stylesheet" />
     <link href="content/bootstrap-theme.css" rel="stylesheet" />
     <script src="scripts/bootstrap.js"></script>
@@ -64,43 +65,69 @@
             </nav>
             <%--End of the top of the page navbar--%>
 
-            <div class="container">
+            <%-- This is the jumbotron and will also hold the camera--%>
+            <div class="container text-center">
                 <div class="jumbotron">
-                    <center><img src="Pictures/ChapmanHall.jpg" style="width:300px;height:300px;" /></center>
-                    <%--     <img src="http://192.168.173.24/mjpg/video.mjpg" height="340" width="450"  />--%>
+                     <img src="http://10.18.32.100/mjpg/video.mjpg" class="img-responsive" height="450" width=""  />
                 </div>
             </div>
+            <%--End of the Jumbotron--%>
+
+            <%--This is the Bracy Weather Data--%>
+            <div class="container">
+            <table class="table table-hover">
             <%--<asp:TextBox ID="txtData" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
             <asp:Panel ID="Panel" runat="server">
-                <p>
+                <tr>
+                    <td>
                     <asp:Label ID="lblCurrentTemperature" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblHumidity" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblWind" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblBarometer" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblTodaysRain" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblWindChill" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblHighTemperature" runat="server" Text=""></asp:Label>
-                </p>
-                <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                     <asp:Label ID="lblLowTemperature" runat="server" Text=""></asp:Label>
-                </p>
+                    </td>
+                </tr>
             </asp:Panel>
+            </table>
+            </div>
+            <%--This is the end of Bracy Weather Data--%>
 
-
-            <iframe id="MyIFrame" runat="server" scrolling="auto" width="100%" height="768px" frameborder="0"></iframe>
-
+            <%--This is the Weather Channel Radar--%>
+            <div class="embed-container maps">
+            <iframe id="MyIFrame" runat="server" scrolling="yes" width="100%" height="768px" frameborder="0"></iframe>
+            </div>
+            <%--This is the end of the Weather Channel Radar--%>
 
             <%--Start of the footer--%>
             <div class="navbar navbar-inverse navbar-fixed-bottom">
