@@ -44,13 +44,15 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
+                                    <li><a ref="#">Nothing to see here</a></li>
+                                    <li><a ref="#">Move along</a></li>
+                                   <%-- <li><a href="#">Action</a></li>
                                     <li><a href="#">Another action</a></li>
                                     <li><a href="#">Something else here</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Separated link</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>--%>
                                 </ul>
                             </li>
                             <li><a href="http://www.mountunion.edu/">Mount Union Homepage</a></li>
@@ -68,14 +70,15 @@
             <%-- This is the jumbotron and will also hold the camera--%>
             <div class="container text-center">
                 <div class="jumbotron">
-                     <img src="http://10.18.32.100/mjpg/video.mjpg" class="img-responsive" height="450" width=""  />
+                    <img src="http://10.18.32.100/mjpg/video.mjpg" class="img-responsive" height="450" width=""  />
+                    <asp:label Id="lblCurrentTime" runat="server" Text="" Font-Bold="true" ForeColor="Purple"></asp:Label>
                 </div>
             </div>
             <%--End of the Jumbotron--%>
 
             <%--This is the Bracy Weather Data--%>
             <div class="container">
-            <table class="table table-hover">
+            <table class="table table-hover" style="width: 400px">
             <%--<asp:TextBox ID="txtData" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
             <asp:Panel ID="Panel" runat="server">
                 <tr>
@@ -133,10 +136,23 @@
             <div class="navbar navbar-inverse navbar-fixed-bottom">
                 <div class="container">
                     <h2>This site was built by Cloudware</h2>
+                    <%--<h5 style="color:white">
+                        Tim Bagnola - Team Leader<br />
+                        Jaret Spayd - Lead Architect<br />
+                        Nik Barkley - Configuration Management Specialist<br />
+                        Alyssa Lee - Lead Tester<br />
+                    </h5>--%>
                 </div>
             </div>
             <%--End of the footer--%>
         </div>
     </form>
+    <script>
+        var myVar = setInterval(myTimer, 1000);
+        function myTimer() {
+            var d = new Date();
+            document.getElementById("lblCurrentTime").innerHTML = d.toDateString() + " " + d.toLocaleTimeString();
+        }
+    </script>
 </body>
 </html>
