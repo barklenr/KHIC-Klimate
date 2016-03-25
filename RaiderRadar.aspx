@@ -123,6 +123,9 @@
                 </tr>
             </asp:Panel>
             </table>
+                <img id="timelapse" runat="server" src="http://10.18.32.100/jpg/1/image.jpg?timestamp=1458760596638.jpg" height="400" width="600" />
+                <%--<embed id="timeLapseImage" runat="server" width="600" height="400" />--%>
+                <canvas id="myCanvas" runat="server" width="578" height="400"></canvas>
             </div>
             <%--This is the end of Bracy Weather Data--%>
 

@@ -1,5 +1,8 @@
 ﻿using System;
 using Weather_Solution;
+using TimeLapseManager;
+using System.Drawing;
+using System.Net;
 
 public partial class MountUnionClimate : System.Web.UI.Page
 {
@@ -28,6 +31,17 @@ public partial class MountUnionClimate : System.Web.UI.Page
         MyIFrame.Attributes["src"] = "https://weather.com/weather/radar/interactive/l/USOH0013:1:US?layer=radarConus&zoom=7";
         //MyIFrame.Attributes["src"] = "http://www.accuweather.com/en/us/alliance-oh/44601/weather-radar/335070";
 
+        ImageRetriever retriever = new ImageRetriever();
+        String first = retriever.retrieveMickeyString();
+        timelapse.Attributes["src"] = first;
+
+        var textFromFile = (new WebClient()).DownloadString("http://raider.mountunion.edu/~bagnolta/RaiderRadar/LOG.TXT");
+
+        Console.Out.WriteLine("HERE");
+        Console.Out.WriteLine(textFromFile);
+        Console.Out.WriteLine("HERE");
+
     }
+
 
 }

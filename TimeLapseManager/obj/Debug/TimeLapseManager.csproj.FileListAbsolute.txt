@@ -1,0 +1,5 @@
+C:\Users\TIMMAH\Desktop\KHIC-Klimate\TimeLapseManager\bin\Debug\TimeLapseManager.dll
+C:\Users\TIMMAH\Desktop\KHIC-Klimate\TimeLapseManager\bin\Debug\TimeLapseManager.pdb
+C:\Users\TIMMAH\Desktop\KHIC-Klimate\TimeLapseManager\obj\Debug\TimeLapseManager.csprojResolveAssemblyReference.cache
+C:\Users\TIMMAH\Desktop\KHIC-Klimate\TimeLapseManager\obj\Debug\TimeLapseManager.dll
+C:\Users\TIMMAH\Desktop\KHIC-Klimate\TimeLapseManager\obj\Debug\TimeLapseManager.pdb
