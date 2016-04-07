@@ -3,9 +3,13 @@ using Weather_Solution;
 using TimeLapseManager;
 using System.Drawing;
 using System.Net;
+using System.Threading;
+using System.Web.Services;
 
 public partial class MountUnionClimate : System.Web.UI.Page
 {
+    private bool run = false;
+    Thread timeLapseThread;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -31,17 +35,44 @@ public partial class MountUnionClimate : System.Web.UI.Page
         MyIFrame.Attributes["src"] = "https://weather.com/weather/radar/interactive/l/USOH0013:1:US?layer=radarConus&zoom=7";
         //MyIFrame.Attributes["src"] = "http://www.accuweather.com/en/us/alliance-oh/44601/weather-radar/335070";
 
-        ImageRetriever retriever = new ImageRetriever();
-        String first = retriever.retrieveMickeyString();
-        timelapse.Attributes["src"] = first;
+        timeLapseThread = new Thread(handleTimeLapse);
+        timeLapseThread.Start();
 
-        var textFromFile = (new WebClient()).DownloadString("http://raider.mountunion.edu/~bagnolta/RaiderRadar/LOG.TXT");
-
-        Console.Out.WriteLine("HERE");
-        Console.Out.WriteLine(textFromFile);
-        Console.Out.WriteLine("HERE");
+        
 
     }
 
+    [WebMethod]
+    public static String doSomething()
+    {
+        return "hi";
+    }
+
+    [WebMethod]
+    private void handleTimeLapse()
+    {
+        ImageRetriever retriever = new ImageRetriever();
+        String address = "http://raider.mountunion.edu/~bagnolta/RaiderRadar/";
+        String fileExtension = ".jpg";
+
+        while (true)
+        {
+            if (run)
+            {
+                System.Collections.Generic.List<String> log = retriever.getImagesFromLog();
+                foreach(String i in log)
+                {
+                    timelapse.Attributes["src"] = address + i + fileExtension;
+                    Thread.Sleep(10000);
+                }
+            }
+            else
+            {
+                string standby = retriever.standbyString();
+                timelapse.Attributes["src"] = standby;
+                Thread.Sleep(30000);
+            }
+        }
+    }
 
 }

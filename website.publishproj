@@ -44,6 +44,10 @@ Copyright (C) Microsoft Corporation. All rights reserved.
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="TimeLapseManager\TimeLapseManager.csproj">
+      <Project>{49511C40-A270-4E1D-B248-4ABF2573B8C8}</Project>
+      <Name>TimeLapseManager</Name>
+    </ProjectReference>
     <ProjectReference Include="Weather Solution\WeatherData.csproj">
       <Project>{585A3973-0BB0-4A16-918A-F5B1A555EED1}</Project>
       <Name>WeatherData</Name>

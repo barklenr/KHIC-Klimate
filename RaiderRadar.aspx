@@ -122,10 +122,10 @@
                     </td>
                 </tr>
             </asp:Panel>
-            </table>
-                <img id="timelapse" runat="server" src="http://10.18.32.100/jpg/1/image.jpg?timestamp=1458760596638.jpg" height="400" width="600" />
+            </table> 
+                <img id="timelapse" runat="server" src="http://raider.mountunion.edu/~bagnolta/RaiderRadar/SorcererMickey.jpg" height="400" width="600" onclick="runTimeLapse()" />
                 <%--<embed id="timeLapseImage" runat="server" width="600" height="400" />--%>
-                <canvas id="myCanvas" runat="server" width="578" height="400"></canvas>
+                <%--<canvas id="myCanvas" runat="server" width="578" height="400"></canvas>--%>
             </div>
             <%--This is the end of Bracy Weather Data--%>
 
@@ -150,12 +150,32 @@
             <%--End of the footer--%>
         </div>
     </form>
-    <script>
+    <script id="script1">
         var myVar = setInterval(myTimer, 1000);
         function myTimer() {
             var d = new Date();
             document.getElementById("lblCurrentTime").innerHTML = d.toDateString() + " " + d.toLocaleTimeString();
         }
+
+        function runTimeLapse() {
+            // document.getElementById("timelapse").src = "http://raider.mountunion.edu/~bagnolta/RaiderRadar/2016_3_23_15_35.jpg";
+            $.ajax({
+                type: "POST",
+                url: "RaiderRadar.aspx/doSomething",
+                data: "",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (msg) {
+                    $("#divResult").html("success");
+                    alert("Success");
+                },
+                error: function (e) {
+                    $("#divResult").html("Something Wrong.");
+                    alert("fail");
+                }
+            });
+        }
+
     </script>
 </body>
 </html>
