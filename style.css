@@ -1,4 +1,6 @@
 ﻿body {
+   margin:  0;
+   padding: 0;
 }
 .header{
     height:100px;
@@ -6,6 +8,18 @@
     border:1px solid #CCC;
     width:960px;
     margin:0px auto;
+}
+.img_rotate
+{
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv; /*IE*/
+
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph; /*IE*/
 }
 .navbar{
 

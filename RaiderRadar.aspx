@@ -41,21 +41,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="http://www.mountunion.edu/">Mount Union Homepage</a></li>
-                            <li><a href="http://raider.mountunion.edu/cs/">CSIS Homepage</a></li>
-                            <li><a href="http://raider.mountunion.edu/~weather/Bracy_Vantage_Pro_Plus.htm">Mount Union Weather</a></li>
+                            <li><a href="http://www.mountunion.edu/" target="_blank">Mount Union Homepage</a></li>
+                            <li><a href="http://raider.mountunion.edu/cs/" target="_blank">CSIS Homepage</a></li>
+                            <li><a href="http://raider.mountunion.edu/~weather/Bracy_Vantage_Pro_Plus.htm" target="_blank">Bracy Weather</a></li>
                         </ul>
 
                     </div>
@@ -68,13 +56,13 @@
             <%-- This is the jumbotron and will also hold the camera--%>
             <div class="container text-center">
                 <div class="jumbotron">
-                     <img src="http://10.18.32.100/mjpg/video.mjpg" class="img-responsive" height="450" width=""  />
+                     <center><img src="http://10.18.32.100/mjpg/video.mjpg" class="img-responsive" height="1000" width="1000"  /></center>
                 </div>
             </div>
             <%--End of the Jumbotron--%>
 
             <%--This is the Bracy Weather Data--%>
-            <div class="container">
+            <div class="container text-center">
             <table class="table table-hover">
             <%--<asp:TextBox ID="txtData" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
             <asp:Panel ID="Panel" runat="server">
@@ -123,6 +111,12 @@
             </div>
             <%--This is the end of Bracy Weather Data--%>
 
+            <%--This is the timelapse--%>
+            <div class="container text-center">
+               <iframe src="https://silver.mountunion.edu:50039/cloudware/raiderradartimelapse.aspx" width="100%" height="575" scrolling="no" frameborder="0"></></iframe>
+            </div>
+            <%--This is the end of the timelapse--%>
+
             <%--This is the Weather Channel Radar--%>
             <div class="embed-container maps">
             <iframe id="MyIFrame" runat="server" scrolling="yes" width="100%" height="768px" frameborder="0"></iframe>
@@ -130,11 +124,13 @@
             <%--This is the end of the Weather Channel Radar--%>
 
             <%--Start of the footer--%>
-            <div class="navbar navbar-inverse navbar-fixed-bottom">
-                <div class="container">
-                    <h2>This site was built by Cloudware</h2>
+            <footer>
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <h3><a href="AboutUs.aspx" target="_blank">About Us</a> | <a href="https://raiderradar.wordpress.com" target="_blank">WordPress Blog</a></h3>
+                    </div>
                 </div>
-            </div>
+            </footer>
             <%--End of the footer--%>
         </div>
     </form>
