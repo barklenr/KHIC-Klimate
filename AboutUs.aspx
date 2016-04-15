@@ -119,7 +119,7 @@
                 <img class="img-circle img-responsive img-center" src="pictures/jaret.png" height="200" width="200">
                 </div>
                 <h3>Jaret Spayd
-                    <small>Job Title</small>
+                    <small>Lead Architect</small>
                 </h3>               
                     <table style="width:100%">
                         <tr>
@@ -146,7 +146,7 @@
                 <img class="img-circle img-responsive img-center" src="pictures/nik.png" height="200" width="200">
                 </div>
                 <h3>Nik Barkley
-                    <small>Job Title</small>
+                    <small>Configuration Management Specialist</small>
                 </h3>
                     <table style="width:100%">
                         <tr>
@@ -176,7 +176,7 @@
                 <img class="img-circle img-responsive img-center" src="Pictures/Alyssa.png" height="200" width="200">
                 </div>
                 <h3>Alyssa Lee
-                    <small>Job Title</small>
+                    <small>Lead Tester</small>
                 </h3>
                     <table style="width:100%">
                         <tr>
@@ -200,7 +200,7 @@
                 <img class="img-circle img-responsive img-center" src="pictures/KIRCHMEYER.png" height="200" width="200">
                 </div>
                 <h3>Dr. John Kirchmeyer
-                    <small>Job Title</small>
+                    <small>Technical Advisor</small>
                 </h3>
                     <table style="width:100%">
                         <tr>
